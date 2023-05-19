@@ -1,0 +1,18 @@
+@import "../Common/common.module.css";
+.transaction-history{
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);}
+.transaction-history th{
+    width: 10em;
+    height: 2em;
+}
+.transaction-history tr{
+    text-align: center;
+    border: var(--border-medium);
+}
+.transaction-history tbody tr:nth-child(2n){
+    background-color: var(--bg-gentle);
+}
+.transaction-history thead{
+    background-color: var(--bg-highlighted);
+}
