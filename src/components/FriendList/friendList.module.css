@@ -34,9 +34,9 @@
 
 .isOnline-true{
     composes: isOnline;
-    background-color: rgb(138, 230, 0);
+    background-color: var(--online);
 }
 .isOnline-false{
     composes: isOnline;
-    background-color: red;
+    background-color: var(--offline);
 }

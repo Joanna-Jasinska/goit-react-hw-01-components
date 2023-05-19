@@ -8,6 +8,8 @@
     --bg-gentle: whitesmoke;
     --margin-component: 2px;
     --txt-disabled: dimgray;
+    --online: rgb(138, 230, 0);
+    --offline: dimgray;
 }
 
 ul{
