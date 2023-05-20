@@ -10,6 +10,12 @@
     --txt-disabled: dimgray;
     --online: rgb(138, 230, 0);
     --offline: dimgray;
+    --color-variant1: rgba(233, 251, 255, 0.3);
+    --color-variant2: rgba(168, 239, 255, 0.3);
+    --color-variant3: rgba(106, 228, 255, 0.3);
+    --color-variant4: rgba(45, 216, 255, 0.3);
+    --color-variant5: rgba(0, 198, 243, 0.3);
+    --color-variant6: rgba(0, 177, 217, 0.3);
 }
 
 ul{

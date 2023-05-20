@@ -21,6 +21,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    background-color: var(--bg-highlighted);
 }
 .item{
     color: var(--bg-regular);
@@ -30,9 +31,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--bg-highlighted);
 }
 .label{
     font-size: 0.7em;
 }
-/* .percentage{} */
+#id-1{
+    background-color: var(--color-variant1);
+}
+#id-2{
+    background-color: var(--color-variant2);
+}
+#id-3{
+    background-color: var(--color-variant3);
+}
+#id-4{
+    background-color: var(--color-variant4);
+}
+#id-5{
+    background-color: var(--color-variant5);
+}
+#id-6{
+    background-color: var(--color-variant6);
+}
