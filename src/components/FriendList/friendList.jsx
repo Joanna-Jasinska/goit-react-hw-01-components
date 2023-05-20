@@ -20,6 +20,6 @@ FriendList.propTypes = {
   friends: PropTypes.shape({
     name: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
-    isOnline: PropTypes.boolean.isRequired,
+    isOnline: PropTypes.bool.isRequired,
   })
 }
