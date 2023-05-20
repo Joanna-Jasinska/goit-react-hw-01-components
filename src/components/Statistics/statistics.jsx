@@ -18,4 +18,10 @@ export const Statistics =({data})=>(
   </ul>
 </section>);
 
-Statistics.propTypes = {data: PropTypes.array.isRequired};
+Statistics.propTypes = {
+  data: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+  })
+}

@@ -16,9 +16,10 @@ export const FriendList =({friends})=>(
 
   </ul>);
 
-FriendList.propTypes = {data: PropTypes.array};
-// PropTypes.shape({
-//   id: PropTypes.string.isRequired,
-//   label: PropTypes.string.isRequired,
-//   percentage: PropTypes.number.isRequired,
-//   })
+FriendList.propTypes = {
+  friends: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
+    isOnline: PropTypes.boolean.isRequired,
+  })
+}
