@@ -24,4 +24,5 @@ export const TransactionHistory =({transactions})=>(
   </tbody>
 </table>
 );
-// 
+
+TransactionHistory.propTypes = {data: PropTypes.array.isRequired};
