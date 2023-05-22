@@ -1,7 +1,5 @@
-// import { C } from '../../js/constants.js';
-import css from "./profile.module.css";
+import css from "./Profile.module.css";
 import PropTypes from "prop-types";
-// import user from "./user.json"
 
 export const Profile =({user})=>(
 <div className={css.profile}>

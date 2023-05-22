@@ -1,4 +1,3 @@
-@import "../Common/common.module.css";
 .transaction-history{
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);}

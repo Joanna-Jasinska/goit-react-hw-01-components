@@ -1,5 +1,5 @@
-import css from "./transactionHistory.module.css"
 import _ from 'lodash';
+import css from "./TransactionHistory.module.css"
 import PropTypes from "prop-types";
 
 

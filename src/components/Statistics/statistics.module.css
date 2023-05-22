@@ -1,4 +1,3 @@
-@import "../Common/common.module.css";
 .statistics{
     margin: var(--margin-component);
     display: flex;

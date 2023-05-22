@@ -1,4 +1,3 @@
-@import "../Common/common.module.css";
 .friend-list{
     display: flex;
     flex-direction: column;
