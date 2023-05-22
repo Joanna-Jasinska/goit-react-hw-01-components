@@ -13,8 +13,7 @@ export const TransactionHistory = ({ transactions }) => (
     </thead>
 
     <tbody>
-      { 
-      transactions.map(transaction => (
+      {transactions.map(transaction => (
         <tr>
           <td> {_.capitalize(transaction.type)}</td>
           <td>125</td>
@@ -24,8 +23,6 @@ export const TransactionHistory = ({ transactions }) => (
     </tbody>
   </table>
 );
-
-TransactionHistory.propTypes = { data: PropTypes.array.isRequired };
 
 TransactionHistory.propTypes = {
   transactions: PropTypes.shape({
