@@ -1,41 +1,40 @@
-.friend-list{
-    display: flex;
-    flex-direction: column;
-    gap: 0.4em;
-    margin: var(--margin-component);
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+  margin: var(--margin-component);
 }
-.item{
-    width: 12em;
-    border: var(--border-gray);
-    border-radius: var(--border-radius);
-    box-shadow: var(--box-shadow);
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    /* padding-left: 0.6em; */
-    padding: 0.1em 0.6em;
+.item {
+  width: 12em;
+  border: var(--border-gray);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* padding-left: 0.6em; */
+  padding: 0.1em 0.6em;
 }
-.avatar{
-    width: 2.8em;
-    aspect-ratio: 1/1;
-    background-color: var(--bg-highlighted);
-    border-radius: var(--border-radius);
-}
-
-
-.isOnline{
-    background-color: gray;
-    width: 30px;
-    height: 30px;
-    display: block;    
-    border-radius: 50%;
+.avatar {
+  width: 2.8em;
+  aspect-ratio: 1/1;
+  background-color: var(--bg-highlighted);
+  border-radius: var(--border-radius);
 }
 
-.isOnline-true{
-    composes: isOnline;
-    background-color: var(--online);
+.status {
+  background-color: gray;
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-radius: 50%;
 }
-.isOnline-false{
-    composes: isOnline;
-    background-color: var(--offline);
+
+.online {
+  composes: status;
+  background-color: var(--online);
+}
+.offline {
+  composes: status;
+  background-color: var(--offline);
 }
