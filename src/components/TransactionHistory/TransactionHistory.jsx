@@ -1,6 +1,6 @@
 import _ from 'lodash';
-import css from './TransactionHistory.module.css';
 import PropTypes from 'prop-types';
+import css from './TransactionHistory.module.css';
 
 export const TransactionHistory = ({ transactions }) => (
   <table className={css['transaction-history']}>
